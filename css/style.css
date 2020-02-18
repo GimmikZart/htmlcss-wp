@@ -19,6 +19,7 @@ body {
   background-image:url("../img/sfondo.png");
 }
 
+/* -----------PARTE ALTA----------- */
 header {
   height: 220px;
   background-color: rgb(255, 255, 255);
@@ -95,6 +96,10 @@ nav {
   letter-spacing: 0.6px;
   }
 
+
+/* ----------CONTENUTO CENTRALE----------- */
+
+
 main {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -107,6 +112,7 @@ main::after {
   clear: both;
 }
 
+/* COLONNA SINISTRA */
 aside {
   background-color: white;
   width: 20%;
@@ -117,10 +123,30 @@ aside {
   line-height: 30px;
 }
 
-.sinistra {
+.asideleft {
   float: left;
 }
 
+.asideleft h5 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #504741;
+}
+
+.asideleft li {
+  list-style: none;
+  padding-left: 8px;
+  padding-bottom: 10px;
+  }
+
+.asideleft li a {
+  color: #99cc40;
+  text-decoration: none;
+}
+
+
+
+/* COLONNA CENTRALE */
 section {
 
   width: 60%;
@@ -148,6 +174,9 @@ section {
 
 }
 
+
+/* COLONNA DESTRA */
+
 .destra {
   float:right;
   }
@@ -159,12 +188,8 @@ section {
 
 }
 
-.sinistra h5 {
-    padding-bottom: 20px;
-    font-size: 20px;
-    color: #504741;
 
-}
+/* ----------------PARTE BASSA--------------- */
 
 footer {
   height: 455px;
